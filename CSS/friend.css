@@ -4,16 +4,19 @@
   align-items: center;
 }
 
-.friend .friend__avatar {
+.friend__avatar {
   width: 50px;
+  height: 50px;
   border-radius: 40%;
   margin-right: 15px;
 }
 .friend__avatar .g-avatar {
   width: 70px;
+  height: 70px;
 }
-.friend__avatar.m-avatar {
-  width: 60px;
+.friend__avatar .m-avatar {
+  width: 100px;
+  height: 100px;
 }
 
 .friend .friend__column {
@@ -22,22 +25,54 @@
 }
 
 .friend__content .friend__name {
+  font-family: "Roboto Slab", serif;
   display: block;
+  font-weight: 500;
   margin-bottom: 5px;
 }
 
 .friend__content .friend__status,
-.friend__content .friend__exp,
 .friend__num .friend__number,
 .friend .chat__time {
   opacity: 60%;
 }
-.friend__content .friend__exp,
 .friend__num .friend__number {
   font-size: 14px;
 }
 
 .friend__content .friend__status,
 .friend .chat__time {
-  font-size: 12px;
+  font-size: 11px;
+}
+
+.friend__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friends__birth-mark {
+  text-align: center;
+}
+
+.friend__exp {
+  color: rgba(31, 31, 31, 0.692);
+  font-size: 13px;
+  transform: translateX(-110px);
+}
+
+.friend__check {
+  color: rgba(31, 31, 31, 0.692);
+}
+.fav_friend {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-340px);
+  width: 60px;
+}
+.fav_friend__name {
+  margin-bottom: 10px;
+}
+.fav_friend__status {
+  color: rgba(31, 31, 31, 0.692);
+  font-size: 11px;
 }
