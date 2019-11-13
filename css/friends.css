@@ -1,0 +1,37 @@
+.friends__birthday {
+  padding: 7px 0px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 20px 0px 0px 0px;
+}
+.friends__favorites {
+  padding: 7px 0px;
+  border-bottom: 1px solid gray;
+  margin: 1px 0px 0px 0px;
+}
+
+.friends__birthday .friends__title,
+.friends__favorites .friends__title {
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.friends__birth-mark {
+  width: 37px;
+  height: 37px;
+  background-color: rgb(228, 98, 98);
+  padding: 10px;
+  border-radius: 13px;
+  color: white;
+}
+
+.friends__content {
+  display: flex;
+  flex-direction: column;
+}
+.friends__content .friend__status {
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 70%;
+}
