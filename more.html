@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Chats | Kakao Clone</title>
+    <title>More | Kakao Clone</title>
   </head>
 
   <body>
@@ -37,14 +37,14 @@
 
     <header class="header">
       <div class="header__sec">
-        <h1 class="header__sec_name">Chats</h1>
+        <h1 class="header__sec_name">More</h1>
       </div>
       <div class="header__sec">
         <span class="header__sec_icon">
           <a href="search.html"> <i class="fab fa-sistrix"></i></a>
         </span>
         <span class="header__sec_icon">
-          <i class="fas fa-comment-medical"></i>
+          <i class="fas fa-qrcode"></i>
         </span>
         <span class="header__sec_icon">
           <a href="https://www.spotify.com/"> <i class="fab fa-spotify"></i></a>
@@ -55,27 +55,86 @@
       </div>
     </header>
 
-    <main class="Chats">
-      <ul class="chats__list">
-        <li class="chats__chat">
-          <a hrec="chat.html">
-            <div class="chats__chat_myFriend">
-              <div class="bf__column">
-                <img class="m-avatar bf__avatar" src="Images/pengsoo.jpg" />
-                <div class="friend__sec">
-                  <span class="bf__name">Peng Soo</span>
-                  <span class="bf__txt">Peng Ha!</span>
-                </div>
+    <main class="more">
+      <header class="more__header">
+        <div class="friends__friend friend friend">
+          <div class="friends__friend friend">
+            <div class="friend__column">
+              <img src="Images/peng.png" class="g-avatar friend__avatar" />
+              <div class="friend__content">
+                <span class="friend__name">
+                  Peng
+                </span>
+                <span class="friend__status">
+                  peng@antarctica.com
+                </span>
               </div>
-              <div class="bf__column">
-                <span class="chat_time">19:47</span>
-                <span class="chat_num">1</span>
+              <div class="more__btn">
+                <span class="more__btn_my">MY</span>
+                <span class="more__btn_coin">
+                  <i class="fas fa-cookie-bite"></i>
+                  <span class="more__btn_ex">10</span>
+                </span>
               </div>
             </div>
-          </a>
-        </li>
-      </ul>
+          </div>
+        </div>
+      </header>
     </main>
+
+    <div class="pay">
+      <div class="pay_icon">
+        <div class="pay_icon_apple">
+          <i class="fab fa-apple-pay"></i>
+        </div>
+        <div class="pay_icon_right">
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+      <div class="pay_mony">
+        <div class="pay_money_ex">0 won</div>
+        <div class="pay_money_charge">Charge</div>
+      </div>
+      <div class="pay_other">
+        <div class="pay_other_remit">Remittance</div>
+        <div class="pay_other_payment">Payment</div>
+      </div>
+    </div>
+
+    <ul class="more_btn-list">
+      <li class="more_btn">
+        <span class="more__btn-icon">
+          <i class="fas fa-gift"></i>
+        </span>
+        <span class="motr__btn-title">
+          Gift
+        </span>
+      </li>
+      <li class="more_btn">
+        <span class="more__btn-icon">
+          <i class="far fa-kiss-wink-heart"></i>
+        </span>
+        <span class="motr__btn-title">
+          Emoticon
+        </span>
+      </li>
+      <li class="more_btn">
+        <span class="more__btn-icon">
+          <i class="fas fa-store"></i>
+        </span>
+        <span class="motr__btn-title">
+          Shopping
+        </span>
+      </li>
+      <li class="more_btn">
+        <span class="more__btn-icon">
+          <i class="fab fa-monero"></i>
+        </span>
+        <span class="motr__btn-title">
+          Makers
+        </span>
+      </li>
+    </ul>
 
     <nav class="nav">
       <ul class="nav__list">
