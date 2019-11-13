@@ -6,6 +6,7 @@
 @import "header.css";
 @import "more.css";
 @import "setting.css";
+@import "nav-bar.css";
 
 * {
   box-sizing: border-box;
