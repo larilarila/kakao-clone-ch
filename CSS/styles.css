@@ -9,6 +9,7 @@
 @import "nav-bar.css";
 @import "chat.css";
 @import "pay.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
