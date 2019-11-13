@@ -1,13 +1,17 @@
 .status-bar {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 13px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.767);
 }
 
 .status-bar i {
-  font-size: 17px;
+  font-size: 13px;
 }
 
-.status-bar status-bar__battery-level {
+.status-bar .status-bar__battery-level {
   margin-left: 3px;
 }
